@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Control</title>
+	<link rel="stylesheet" type="text/css" href="./bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="./styles.css"/>
+	<script src="./jQuery.js"></script>
+	<script src="./scripts.js"></script>
+</head>
+<body>
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+		  <h1 class="display-4">Which dogs are cool?</h1>
+		  <p class="lead">An demo for using local storage to chache JSON data and Images</p>
+		  <hr class="my-4">
+		  	<select id="dogBreedSelection" class='form-control'></select>
+		    <a id="fetchDog" class="btn btn-primary btn-lg" role="button">Fetch a dog</a>
+			  <a id="cacheDog" class="btn btn-danger btn-lg" role="button">This dog is cool</a>
+		</div>
+		<div id="dogContainer" class="row"></div>
+	</div>
+	<h1>The dogs below are cool</h1>
+	<div class="row" id="coolDogs"></div>
+	<script src="./bootstrap.min.js"></script>
+</body>
+</html>
